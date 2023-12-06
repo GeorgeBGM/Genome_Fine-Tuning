@@ -1,0 +1,17 @@
+001.Result/ filter=lfs diff=lfs merge=lfs -text
+ls-files filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/GPT2_HERV_Binary_RUN0/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/GPT2_HERV_Binary_RUN0/training_args.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/GPT2_HERV_Multi_RUN0/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/GPT2_HERV_Multi_RUN0/training_args.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/BERT_HERV_Binary_RUN0/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/BERT_HERV_Binary_RUN0/training_args.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/BERT_HERV_Multi_RUN0/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/002.Model_Classification/Dataset_HERV/BERT_HERV_Multi_RUN0/training_args.bin filter=lfs diff=lfs merge=lfs -text
+001.Result/001.Genomics_Dataset/data_all_Immuno-Classification_Need.fa filter=lfs diff=lfs merge=lfs -text
+001.Result/001.Genomics_Dataset/data_all_Random-Classification_Need_shuffle.fa filter=lfs diff=lfs merge=lfs -text
+001.Result/001.Genomics_Dataset/data_all_Regulatory-Classification_Need.fa filter=lfs diff=lfs merge=lfs -text
+001.Result/001.Genomics_Dataset/data_all_Disease-GWAS-Classification_Need.fa filter=lfs diff=lfs merge=lfs -text
+001.Result/001.Genomics_Dataset/data_all_HERV-Classification_Need.fa filter=lfs diff=lfs merge=lfs -text
+001.Result/001.Genomics_Dataset/data_all_Highly_Specifically-Classification_Need.fa filter=lfs diff=lfs merge=lfs -text
+000.Script filter=lfs diff=lfs merge=lfs -text

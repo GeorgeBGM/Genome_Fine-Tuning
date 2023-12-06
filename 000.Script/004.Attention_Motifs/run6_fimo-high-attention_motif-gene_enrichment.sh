@@ -1,0 +1,5 @@
+### 功能富集
+perl -le 'print "Trait\tLogP\tCount\tClass";while(<>){chomp;next if /^$/ or /Description/;@F=split/\t+/,$_;@H=split/\//,$F[-1];print "$F[2]:$F[3]\t$F[4]\t$H[0]\tEnrichment";}'  /home/u20111010010/Project/DNA-Pretraining/Level1/003.Sequence_Visualization/Dataset_HERV/Motif_Enrichment/Functional_enrichment_analysis.txt  >/home/u20111010010/Project/DNA-Pretraining/Level1/003.Sequence_Visualization/Dataset_HERV/Motif_Enrichment/Functional_enrichment-disease-merge_analysis.txt
+
+### DisGeNET
+cat /home/u20111010010/Project/DNA-Pretraining/Level1/003.Sequence_Visualization/Dataset_HERV/Motif_Enrichment/Functional_disease_analysis.txt|perl -le 'while(<>){chomp;next if /^$/ or /Description/;@F=split/\t+/,$_;@H=split/\//,$F[-1];print "$F[7]\t$F[8]\t$F[12]\tDiseases(DisGeNET)";}'|head -n 30 >>/home/u20111010010/Project/DNA-Pretraining/Level1/003.Sequence_Visualization/Dataset_HERV/Motif_Enrichment/Functional_enrichment-disease-merge_analysis.txt

@@ -1,0 +1,1 @@
+perl -lane 'BEGIN { @names = (); } if ($. == 1) { @names = @F; } elsif ($. == 3) { for ($i = 0; $i < scalar @F; $i+=2) { if ($names[$i] eq "train_runtime") { printf "%s: %.4f±%.4f, ", $names[$i], $F[$i] / 3600, $F[$i+1] / 3600; } else { printf "%s: %.4f±%.4f, ", $names[$i], $F[$i], $F[$i+1]; } } print ""; }' -F,  BERT_HERV_Multi-Label_Times3_Mean.csv 
