@@ -1,1 +1,3 @@
-### Genome_Fine-tuning Project
+Genome_Fine-Tuning
+
+Pre-trained models applied to genomic tasks
